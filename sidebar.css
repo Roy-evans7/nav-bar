@@ -1,0 +1,35 @@
+.sidebar{
+    background-color: aliceblue;
+    color: aqua;
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    padding-top: 20p;
+    top: 20;
+    left: 20;
+}
+ul{
+    list-style: none;
+    margin: 2opx;
+    padding: 20px}
+li{
+    padding: 20;
+    font-family: 30px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a::hover{
+    background-color: aqua;
+    color: beige;
+
+}
+.rounded image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow-y: none;
+}
+    
