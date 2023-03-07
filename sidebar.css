@@ -1,35 +1,112 @@
+div{
+    text-align: center;
+}
+
 .sidebar{
-    background-color: aliceblue;
-    color: aqua;
-    width: 30px;
-    height: 20px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100%;
     position: fixed;
-    padding-top: 20p;
-    top: 20;
-    left: 20;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
 }
-ul{
+.sidebar ul {
     list-style: none;
-    margin: 2opx;
-    padding: 20px}
-li{
-    padding: 20;
-    font-family: 30px;
-    font-size: large;
+    margin: 10px;
+    padding: 10px, 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 15px 20px;
+    /*margin-left:270px; */
+    
+    
 }
-a{
+.sidebar li{
+    padding: 15px, 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: blue;
+}
+.sidebar a {
     text-decoration: none;
     color: brown;
 }
-a::hover{
+a:hover{
     background-color: aqua;
     color: beige;
 
 }
-.rounded image{
+.rounded-image{
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    padding: 10px;
+    align-self: center;
     overflow-y: none;
 }
-    
+.my-name{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    margin: 0;
+}
+.introduction{
+    margin-left: 0px;
+}
+.introduction-text{
+    font-size: 25px;
+   
+}
+.contact-me{
+    text-align: center;
+    /*border: 1px solid red; */
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius:5px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+}
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 15ms ease-in-out;
+}
+.main-content{
+    margin-left:250px ;
+}
+.work{
+    margin-left: 200px;
+}
+.my-work h1{
+    margin-left: 200px;
+}
+.read-more{
+    padding: 10px;
+    border: 1px solid greenyellow;
+}
+.read-more a{
+    color: black;
+    background-color: green;
+    font-weight: black;
+    padding: 8px;
+    font-size: 15px;
+}
+.read.more{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-transition;
+}
+.read-more a:hover{
+    background-color: white;
+    background-color: black;
+    transition: 200ms ease-in-out;
+}
